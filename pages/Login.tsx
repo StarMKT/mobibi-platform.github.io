@@ -40,9 +40,9 @@ export const Login: React.FC = () => {
         <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
           Acesse sua conta
         </h2>
-        <p className="mt-2 text-center text-sm text-gray-600">
+        {/* <p className="mt-2 text-center text-sm text-gray-600">
           Ou <Link to="/register" className="font-medium text-brand hover:text-brand-dark">crie uma conta gratuitamente</Link>
-        </p>
+        </p> */}
       </div>
 
       <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
