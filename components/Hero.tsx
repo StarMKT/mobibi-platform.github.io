@@ -73,7 +73,7 @@ const Hero: React.FC<HeroProps> = ({
             </p>
 
             <p className="text-lg font-bold">
-              A partir de R$ 980 <span className="text-sm">/semana</span>
+              A partir de R$ 850 <span className="text-sm">/semana</span>
             </p>
           </button>
 
@@ -99,7 +99,7 @@ const Hero: React.FC<HeroProps> = ({
             </p>
 
             <p className="text-lg font-bold">
-              A partir de R$ 1.600 <span className="text-sm">/semana</span>
+              A partir de R$ 1.200 <span className="text-sm">/semana</span>
             </p>
           </button>
         </div>
