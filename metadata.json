@@ -1,0 +1,7 @@
+{
+  "name": "Mobibi",
+  "description": "Uma plataforma moderna de aluguel de veículos inspirada na Localiza, com catálogo em tempo real, gestão administrativa e recomendações via IA.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
