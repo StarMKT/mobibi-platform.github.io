@@ -81,6 +81,12 @@ export const Home: React.FC<HomeProps> = ({
             <h2 className="text-5xl font-bold tracking-tight text-gray-900 mb-3">
               Nossa Frota
             </h2>
+            <p className="text-gray-600 max-w-3xl mt-4">
+              A Mobibi oferece aluguel de carros ideais para motoristas de aplicativo como Uber e 99.
+              Nossos veículos são selecionados para garantir economia, conforto e aprovação nas
+              principais categorias dos apps de mobilidade.
+            </p>
+            <br/>
             <p className="text-2xl text-gray-600">
               Escolha o carro ideal para o seu momento.
             </p>
