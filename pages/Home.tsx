@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
-import { XCircle } from 'lucide-react';
+import { XCircle, Headset, CarFront, Zap } from 'lucide-react';
 import Hero from '../components/Hero';
 import { VehicleCard } from '../components/VehicleCard';
 import useVehicles from '../context/VehicleContext';
@@ -141,21 +141,30 @@ export const Home: React.FC<HomeProps> = ({
           </h3>
 
           <div className="grid md:grid-cols-3 gap-8 text-center">
-            <div className="p-4">
+            <div className="p-4 flex flex-col items-center">
+              <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-red-50 text-red-600">
+                <Headset size={28} />
+              </div>
               <h4 className="font-semibold text-lg mb-2">Atendimento ágil</h4>
               <p className="text-gray-600">
                 Processo simples, rápido e pensado para facilitar sua locação.
               </p>
             </div>
 
-            <div className="p-4">
+            <div className="p-4 flex flex-col items-center">
+              <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-red-50 text-red-600">
+                <CarFront size={28} />
+              </div>
               <h4 className="font-semibold text-lg mb-2">Frota selecionada</h4>
               <p className="text-gray-600">
                 Veículos organizados por categoria para cada perfil de uso.
               </p>
             </div>
 
-            <div className="p-4">
+            <div className="p-4 flex flex-col items-center">
+              <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-red-50 text-red-600">
+                <Zap size={28} />
+              </div>
               <h4 className="font-semibold text-lg mb-2">Mais praticidade</h4>
               <p className="text-gray-600">
                 Escolha o grupo ideal e encontre rapidamente a opção certa.
