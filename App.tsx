@@ -10,6 +10,7 @@ import { Login } from './pages/Login';
 import { Register } from './pages/Register';
 import { Admin } from './pages/Admin';
 import { ProtectedRoute } from './components/ProtectedRoute';
+import { UberSaoPaulo } from './pages/UberSaoPaulo';
 
 const App: React.FC = () => {
   return (
@@ -65,6 +66,11 @@ const App: React.FC = () => {
                       initialFilters={['X']}
                     />
                   }
+                />
+
+                <Route
+                  path="/aluguel-carro-uber-sp"
+                  element={<UberSaoPaulo />}
                 />
 
                 {/* Protected Admin Routes */}
