@@ -10,6 +10,133 @@
     <meta property="og:url" content="https://mobibi.com.br">
     <meta name="twitter:card" content="summary_large_image">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://mobibi.com.br/#organization",
+      "name": "Mobibi Rent a Car",
+      "url": "https://mobibi.com.br",
+      "logo": "https://mobibi.com.br/general/fav.ico",
+      "sameAs": [],
+      "description": "A Mobibi oferece aluguel de carros para motoristas de aplicativo, com frota selecionada, atendimento ágil e planos voltados para Uber e 99.",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "telephone": "+55-11-96047-4488",
+        "areaServed": "BR",
+        "availableLanguage": ["Portuguese"]
+      }
+    },
+    {
+      "@type": "AutoRental",
+      "@id": "https://mobibi.com.br/#autorental",
+      "name": "Mobibi Rent a Car",
+      "url": "https://mobibi.com.br",
+      "description": "Aluguel de carros para motoristas de aplicativo como Uber e 99, com veículos organizados por categoria e atendimento rápido.",
+      "areaServed": {
+        "@type": "Country",
+        "name": "Brasil"
+      },
+      "telephone": "+55-11-96047-4488",
+      "priceRange": "$$",
+      "brand": {
+        "@id": "https://mobibi.com.br/#organization"
+      },
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "name": "Categoria X",
+          "description": "Veículos econômicos e práticos para o dia a dia de motoristas de aplicativo.",
+          "priceCurrency": "BRL",
+          "availability": "https://schema.org/InStock",
+          "url": "https://mobibi.com.br/#frota"
+        },
+        {
+          "@type": "Offer",
+          "name": "Categoria Comfort",
+          "description": "Veículos com mais conforto e espaço para corridas e uso profissional.",
+          "priceCurrency": "BRL",
+          "availability": "https://schema.org/InStock",
+          "url": "https://mobibi.com.br/#frota"
+        },
+        {
+          "@type": "Offer",
+          "name": "Categoria Black",
+          "description": "Veículos premium para motoristas que buscam categorias superiores e mais conforto.",
+          "priceCurrency": "BRL",
+          "availability": "https://schema.org/InStock",
+          "url": "https://mobibi.com.br/#frota"
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://mobibi.com.br/#website",
+      "url": "https://mobibi.com.br",
+      "name": "Mobibi Rent a Car",
+      "publisher": {
+        "@id": "https://mobibi.com.br/#organization"
+      },
+      "inLanguage": "pt-BR"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://mobibi.com.br/#webpage",
+      "url": "https://mobibi.com.br",
+      "name": "Aluguel de carros para Uber e 99 | Mobibi Rent a Car",
+      "isPartOf": {
+        "@id": "https://mobibi.com.br/#website"
+      },
+      "about": {
+        "@id": "https://mobibi.com.br/#autorental"
+      },
+      "description": "Aluguel de carros para Uber e 99. Planos semanais acessíveis, frota selecionada e aprovação rápida para motoristas de aplicativo.",
+      "inLanguage": "pt-BR"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://mobibi.com.br/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "A Mobibi oferece aluguel de carros para motoristas de aplicativo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. A Mobibi oferece aluguel de carros voltados para motoristas de aplicativo, com categorias pensadas para quem trabalha com Uber, 99 e outras plataformas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quais categorias de veículos a Mobibi oferece?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Mobibi organiza sua frota em categorias como X, Comfort e Black, permitindo que o motorista escolha o veículo mais adequado para seu perfil de uso."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como faço para reservar um carro na Mobibi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O usuário pode escolher um veículo no site e clicar em Reservar para iniciar o atendimento via WhatsApp com uma mensagem personalizada sobre o carro selecionado."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "A Mobibi atende somente Uber?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. A Mobibi atende motoristas de aplicativo em geral, incluindo profissionais que atuam com Uber, 99 e outras plataformas de mobilidade."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
     <script>
       tailwind.config = {
         theme: {
