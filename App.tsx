@@ -38,6 +38,7 @@ const App: React.FC = () => {
                       seoTitle="Reserve Agora"
                       heroTitle="Reserve Agora"
                       heroDescription="Reserve seu veículo agora mesmo. Assistência 24h."
+                      initialFilters={['ALL']}
                     />
                   }
                 />
@@ -49,7 +50,7 @@ const App: React.FC = () => {
                       seoTitle="Carros para Motoristas de Aplicativo"
                       heroTitle="Carros para Motoristas de Aplicativo"
                       heroDescription="Encontre o carro ideal para trabalhar como motorista de aplicativos."
-                      initialFilters={['X']}
+                      initialFilters={['ALL']}
                     />
                   }
                 />
@@ -61,6 +62,7 @@ const App: React.FC = () => {
                       seoTitle="Os melhores preços do mercado"
                       heroTitle="Os melhores preços do mercado"
                       heroDescription="Negocie condições exclusivas de desconto no aluguel do seu veículo!"
+                      initialFilters={['X']}
                     />
                   }
                 />
@@ -74,7 +76,7 @@ const App: React.FC = () => {
               </Routes>
               <footer className="bg-gray-900 text-white py-8 mt-auto">
                 <div className="max-w-7xl mx-auto px-4 text-center">
-                  <p>&copy; {new Date().getFullYear()} Mobibi Aluguel de Carros. Todos os direitos reservados.</p>
+                  <p>&copy; {new Date().getFullYear()} Mobibi ® Aluguel de Carros. Todos os direitos reservados. | CNPJ/MF nº 32.879.567/0001-76</p>
                 </div>
               </footer>
             </div>
