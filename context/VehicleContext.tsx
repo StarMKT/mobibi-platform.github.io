@@ -68,7 +68,7 @@ const initialVehicles: Vehicle[] = [
     category: 'Black',
     pricePerDay: 180,
     imageUrl:
-      'https://blogger.googleusercontent.com/img/a/AVvXsEiXoTbInB6b4_Uh9Sb_s5cuUurfCSFW6UJ6JT7Yn-DMs0UDNhhZTYnZ5nPoLOBLo907eRgi3abAzj9kfUi0INwPms5db67Wh0SWOABIk9kU89aiQO9KW2bq7m3n3vxqFkwUB_3TpdMJiwwHDOqNhSpWm5VCsx_-fkIqQO5y5NZGI2EcawaUhDha3BMva2Hh',
+      'https://blogger.googleusercontent.com/img/a/AVvXsEg6Oda_B53oFrOAXXLTbQOSM5azpRWbaVP6tpCeRoHOXGu6CyVVBMdnyCapUj5G9SJ1etIDArHdXhz-yYTMMf-riQlfxxqKxyU_rA6bgxAYo5RC_CoHVXSd8j_i9TdqDUf4FfuLkvDJXtP3asCQWbq5yAV6gM7qYC1Cz6lAXpl_YtqMO6rFTV50GI2B8Zkf',
     description: 'Verifique a disponibilidade.',
     transmission: 'Automático',
     seats: 5,
@@ -81,7 +81,7 @@ const initialVehicles: Vehicle[] = [
     category: 'Black',
     pricePerDay: 180,
     imageUrl:
-      'https://blogger.googleusercontent.com/img/a/AVvXsEjNr4gHNa6HuqmVZTkhFtXycyktjv1KaHBu8naw3NIU_uPL2YMboaPPM2jtCF1LtoN6in_8AJG9u_1BN0smTy7tW86U3sxePLjQHh3STIjSReWnxtxwdFH1Wm1EEiqFhINzNxAFwnY7vnh2q3XeSTMox8BJ3s5Rrdj-BEWebDQWxPNdLLGk_pdAqTLBtHcJ',
+      'https://blogger.googleusercontent.com/img/a/AVvXsEj2v9565nitwwFFIRrn0zizv6B6L7TJq6byxnlehgeUu8gkzGVAdMP5IVeg-0wSj2eQLxlzZ5h7L19JMxachYtGCyoyZEkCeQrdMlwAA9U5cjY4d9fnuzVy_bhMInGnL5XMzJwbr8tJ3YDyiXO-xvtzxi5U431u51l8KMaTfomE-4cOju5cEW0YjaBlyQ0C',
     description: 'Verifique a disponibilidade.',
     transmission: 'Automático',
     seats: 5,
@@ -94,7 +94,7 @@ const initialVehicles: Vehicle[] = [
     category: 'Comfort',
     pricePerDay: 196,
     imageUrl:
-      'https://blogger.googleusercontent.com/img/a/AVvXsEgnZ8F1cS_QAuuTPvNvXcs4XUM81Py2OIU2l3d3dubz5LnTCedPHodPaqAYWadFZQk_73AWJf3WvCDAN455uilJ_og4upJLnn4Sfkup9aYPD52UqZM41M79dyOfH90ojg61XRxrGEAJk24D0C-UlTP41o1AS8sVSwgttmMHbFUS9gh_VEGHab7MyZwTXhPo',
+      'https://blogger.googleusercontent.com/img/a/AVvXsEi_enpe6hZFeBhHcDNZIvO-1quOIV90xL7bYmV4FCa_jgXCOvCH3uyfyQJZxHXrFnABEUNKG6_f6fSZDfzBiZSMVSeDVs8TQ-uEN_BVP6y0T_JFx2QHVFWzrobx1bpsfITsblaTSfGyXH29YQo0pNUMAZKVqXjXauXisDBXcaGTchUqbYs_43UwfF49fGOj',
     description: 'Verifique a disponibilidade.',
     transmission: 'Automático',
     seats: 5,
