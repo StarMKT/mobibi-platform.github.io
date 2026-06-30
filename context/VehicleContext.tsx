@@ -200,7 +200,7 @@ const initialVehicles: Vehicle[] = [
     imageUrl:
       'https://blogger.googleusercontent.com/img/a/AVvXsEjhXcBOIaJTd4x7vUUZmFQ33zWujeGH2ejrIomTjTR55UzmCpINoVfxo_JJGi6fI27PuyFqK94_smfkNpbPZSLikyAnCnGJpUO1dVCe7CYvcAvhSK5RGOS1uVJRhth0E2Bk83zYyw2DWOsi7FfKMxLcgyTiRo4z6kTAXv5qTrM2NKqfH-SCwZRe5a4HOIHM',
     description: 'Verifique a disponibilidade.',
-    transmission: 'Automático',
+    transmission: 'Manual',
     seats: 5,
     isAvailable: true,
   },
